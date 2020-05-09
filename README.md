@@ -20,8 +20,7 @@ Therefore, we introduce TravelAI, a conversational agent that helps users book m
 
 | Official Full Name  | Student ID (MTech Applicable)  | Work Items (Who Did What) | Email (Optional) |
 | :------------ |:---------------:| :-----| :-----|
-| Mohamed Mikhail Kennerley | A0213546J | •OR-Tools Optimiser <br>•Video <br>•Survey Design & Data Extraction| 
-e0508649@u.nus.edu |
+| Mohamed Mikhail Kennerley | A0213546J | •OR-Tools Optimiser <br>•Video <br>•Survey Design & Data Extraction| e0508649@u.nus.edu |
 | Loy Pei Xin Veronica | A0213524R | •Flight,Hotel,Tripadvisor API <br>•Rules Formulation <br>•Project Report| E0508647@u.nus.edu|
 | Oh Chun How | A1234567C | •System architecture and intergration <br>•Dialog Flow System zzzzzzzzzz| Chunhow.oh@u.nus.edu |
 
@@ -30,10 +29,6 @@ e0508649@u.nus.edu |
 ## SECTION 4 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
 
 [![Sudoku AI Solver](http://img.youtube.com/vi/-AiYLUjP6o8/0.jpg)](https://youtu.be/-AiYLUjP6o8 "Sudoku AI Solver")
-
-Note: It is not mandatory for every project member to appear in video presentation; Presentation by one project member is acceptable. 
-More reference video presentations [here](https://telescopeuser.wordpress.com/2018/03/31/master-of-technology-solution-know-how-video-index-2/ "video presentations")
-
 ---
 
 ## SECTION 5 : USER GUIDE
@@ -91,10 +86,6 @@ More reference video presentations [here](https://telescopeuser.wordpress.com/20
 ### HDB_BTO_SURVEY.xlsx
 * Results of survey
 * Insights derived, which were subsequently used in our system
-
----
-
-### <<<<<<<<<<<<<<<<<<<< End of Template >>>>>>>>>>>>>>>>>>>>
 
 ---
 
