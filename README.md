@@ -8,11 +8,9 @@
 ---
 
 ## SECTION 2 : EXECUTIVE SUMMARY / PAPER ABSTRACT
-Travel is a US 2.9 trillion dollar industry. Existing web scrapers offer the best deals for flights for a single searched date, and best deals for hotels for a single date range. Traditional travel agencies offer a hassle-free multi-destination travel experience. However, there is no product that a free and easy, multi-destination traveller can use to find the sequence of travel that will give the lowest overall flight and hotel cost. A possible solution could be to manually look up the different flights and hotels on all his travel dates, total up the prices of each combination, and pick the lowest-priced one. An exhaustive search for a trip with n different destinations, and d number of days would amount to at least  (n! × d) searches. Solving for the combination that gives the lowest cost will be another hassle.
+Travel is a 2.9 trillion U.S. dollar industry. Aggregator sites scrape the web to present flight deals for a single searched date, and hotel deals for a given date range. Traditional travel agencies offer hassle-free multi-destination travel packages at a premium. However, there is no product that meets the needs of a free and easy, multi-destination traveller who would like to find an itinerary with the lowest overall flight and hotel cost. For this traveller to manually look up all possible combinations of flights and hotels to find the lowest price would be infeasible. An exhaustive search for a trip with n different destinations, and d number of days would amount to (n! × d) searches. 
 
-In this project, our group has proposed an end-to-end solution by automating the collection of relevant flights and hotels details by calling an API, solving for the combination of flight and hotels that balances between cost and time spent at each destination, and booking the optimized package with respective travel agencies. As an added bonus, our solution will also based on the travel destination and user profile, return a curated list of top places of interest in the destinations that users will be travelling to.
-
-Therefore, we introduce TravelAI, a conversational agent that helps users book multi-stop travel journeys optimised for their cost and time priorities, and offers a curated list of places of interest tailored to user profile and his travel destinations.
+This project presents a TravelAI, a hassle-free end-to-end solution to this problem. TravelAI is a conversational agent that helps users book travel journeys optimised for their cost and time priorities. It automates the collection of flight and hotel information, solves for the optimal combination that balances cost and time spent at each destination, and books the optimized package with the relevant travel agencies. In addition, it will analyse the user’s profile and destinations and provide a curated list of top places of interest tailored to their interests.
 
 ---
 
@@ -21,7 +19,7 @@ Therefore, we introduce TravelAI, a conversational agent that helps users book m
 | Official Full Name  | Student ID (MTech Applicable)  | Work Items (Who Did What) | Email (Optional) |
 | :------------ |:---------------:| :-----| :-----|
 | Mohamed Mikhail Kennerley | A0213546J | •OR-Tools Optimiser <br>•Video <br>•Survey Design & Data Extraction| e0508649@u.nus.edu |
-| Loy Pei Xin Veronica | A0213524R | •Flight,Hotel,Tripadvisor API <br>•Rules Formulation <br>•Project Report| E0508647@u.nus.edu|
+| Loy Pei Xin Veronica | A0213524R | •Flight,Hotel,Tripadvisor API <br>•Rule-Based System <br>•Project Report <br>•User Guide| E0508647@u.nus.edu|
 | Oh Chun How | A1234567C | •System architecture and intergration <br>•Dialog Flow System zzzzzzzzzz| Chunhow.oh@u.nus.edu |
 
 ---
@@ -34,32 +32,8 @@ TravelAI")
 
 ## SECTION 5 : USER GUIDE
 
-`Refer to appendix <Installation & User Guide> in project report at Github Folder: ProjectReport`
-
-### [ 1 ] To run the system using iss-vm
-
-> download pre-built virtual machine from http://bit.ly/iss-vm
-
-> start iss-vm
-
-> open terminal in iss-vm
-
-> $ git clone https://github.com/telescopeuser/Workshop-Project-Submission-Template.git
-
-> $ source activate iss-env-py2
-
-> (iss-env-py2) $ cd Workshop-Project-Submission-Template/SystemCode/clips
-
-> (iss-env-py2) $ python app.py
-
-> **Go to URL using web browser** http://0.0.0.0:5000 or http://127.0.0.1:5000
-
-### [ 2 ] To run the system in other/local machine:
-### Install additional necessary libraries. This application works in python 2 only.
-
-> $ sudo apt-get install python-clips clips build-essential libssl-dev libffi-dev python-dev python-pip
-
-> $ pip install pyclips flask flask-socketio eventlet simplejson pandas
+`Refer to appendix <User Guide> in project report at Github Folder: ProjectReport`
+https://github.com/mecarill/IRS-PM-2020-01-18-IS02PT-GRP09-TravelAI/blob/master/ProjectReport/User%20Guide.pdf
 
 ---
 ## SECTION 6 : PROJECT REPORT / PAPER
