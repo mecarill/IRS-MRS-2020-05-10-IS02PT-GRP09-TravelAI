@@ -28,7 +28,8 @@ Therefore, we introduce TravelAI, a conversational agent that helps users book m
 
 ## SECTION 4 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
 
-[![Sudoku AI Solver](http://img.youtube.com/vi/-AiYLUjP6o8/0.jpg)](https://youtu.be/-AiYLUjP6o8 "Sudoku AI Solver")
+[![TravelAI](https://img.youtube.com/vi/yWLNFtkZtb8/0.jpg)](https://www.youtube.com/watch?v=yWLNFtkZtb8&feature=youtu.be "
+TravelAI")
 ---
 
 ## SECTION 5 : USER GUIDE
