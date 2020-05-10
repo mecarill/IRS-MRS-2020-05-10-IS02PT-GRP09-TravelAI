@@ -1,0 +1,31 @@
+<%- include("partials/header"); -%>
+
+<div id="main" class="container">
+
+
+  <div class="row">
+
+    <div class="col-md-6">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/4YBL0oGPDn0?controls=0&autoplay=1&loop=1&modestbranding=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+
+      <div style="margin: auto;">
+        <form class="result" action="/result" method="post" style="display:inline">
+          <button type="submit" name="result" class="btn btn-secondary">Generate Travel Plan</button>
+        </form>
+        <form class="result" action="/poi" method="post" style="display:inline">
+          <button style="margin: 2px;" type="submit" name="poi" class="btn btn-secondary">Recommend Points of Interest</button>
+        </form>
+        <form class="result" action="/reset" method="post" style="display:inline">
+          <button type="submit" name="reset" class="btn btn-secondary">Reset Input</button>
+        </form>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <iframe id="frame" class="b_frame" allow="microphone;" width="350" height="1600" src="https://console.dialogflow.com/api-client/demo/embedded/d336c025-371e-4b80-8407-8e59a64824f2"></iframe>
+    </div>
+  </div>
+</div>
+
+
+<%- include("partials/footer"); -%>

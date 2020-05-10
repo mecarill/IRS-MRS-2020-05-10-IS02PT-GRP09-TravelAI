@@ -1,0 +1,66 @@
+<%- include("partials/header"); -%>
+
+<div class="box" id="heading">
+  <h1> Point of Interests </h1>
+</div>
+
+<container>
+<table class="table table-hover table-bordered" id="thisTable">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">Location</th>
+      <th scope="col">Website</th>
+      <th scope="col">Image</th>
+    </tr>
+  </thead>
+  <tbody id="showData">
+    <tr hidden>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+    </tr>
+  </tbody>
+
+</table>
+</container>
+
+<script>
+  var dataPOI = <%- resultPOI %>
+  console.log(dataPOI);
+
+  function createTable() {
+    var myPOI = dataPOI;
+    var poiKeyCities = Object.keys(myPOI); //get bangkok and taipei
+    //var poiKey2 = []; //Object.keys(myPOI[poiKey[0]][0]); //get list of POI name
+    //var poi2 = []; //  myPOI[poiKey[0]][0];
+    //var poiKey3 = []; //Object.keys(poi2);
+
+    var table = document.getElementById("thisTable"); //document.createElement("table");
+
+    for (var i = 0; i < poiKeyCities.length; i++) {
+
+      var tr = table.insertRow(-1);
+      tr.insertCell(-1).innerHTML = poiKeyCities[i]; //label cityname
+      tr.insertCell(-1);
+      tr.insertCell(-1);
+      var poiKeyLocation = Object.keys(myPOI[poiKeyCities[i]][0]); //list of locations
+      var poiLocation = myPOI[poiKeyCities[i]][0];
+
+      for (var j = 0; j < poiKeyLocation.length; j++) {
+        tr = table.insertRow(-1);
+        var tabCell = tr.insertCell(-1);
+        tabCell.innerHTML = poiKeyLocation[j];
+        tabCell = tr.insertCell(-1);
+        tabCell.innerHTML = poiLocation[poiKeyLocation[j]].Website;
+        tabCell = tr.insertCell(-1);
+        tabCell.innerHTML = '';
+        let img = document.createElement('img');
+        img.src= poiLocation[poiKeyLocation[j]].Image;
+        tabCell.appendChild(img);
+      }
+    }
+  }
+  createTable();
+</script>
+
+<%- include("partials/footer"); -%>

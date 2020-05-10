@@ -1,0 +1,27 @@
+<%- include("partials/header"); -%>
+
+<div id="main" class="container">
+  <div class="row">
+  <div style='margin: auto;'>
+    <h3>Resfeber is hard at work using her Intelligence</h3>
+  </div>
+  <br><br>
+  <div style='margin: auto;'>
+    <p> Please be patience and try again after a few seconds by clicking the button below. </p>
+  </div>
+  <div style='margin: auto;'>
+    <form class="result" action="/result" method="post" style="display:inline">
+      <button type="submit" name="result" class="btn btn-secondary">Generate Travel Plan</button>
+    </form>
+    <form class="result" action="/poi" method="post" style="display:inline">
+      <button type="submit" name="poi" class="btn btn-secondary">Recommend Points of Interest</button>
+    </form>
+    <form class="result" action="/" method="post" style="display:inline">
+      <button type="submit" name="home" class="btn btn-secondary">Return to Main Page</button>
+    </form>
+  </div>
+</div>
+</div>
+
+
+<%- include("partials/footer"); -%>
