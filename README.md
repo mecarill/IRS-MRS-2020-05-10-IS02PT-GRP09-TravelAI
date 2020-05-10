@@ -32,13 +32,13 @@ TravelAI")
 
 ## SECTION 5 : USER GUIDE
 
-`Refer to appendix <User Guide> in project report at Github Folder: ProjectReport`
+Refer to appendix <User Guide> in project report at Github Folder: ProjectReport <br>
 https://github.com/mecarill/IRS-PM-2020-01-18-IS02PT-GRP09-TravelAI/blob/master/ProjectReport/User%20Guide.pdf
 
 ---
 ## SECTION 6 : PROJECT REPORT / PAPER
 
-`Refer to project report at Github Folder: ProjectReport`
+Refer to project report at Github Folder: ProjectReport <br>
 
 - Executive Summary
 - Market Research
@@ -56,7 +56,7 @@ https://github.com/mecarill/IRS-PM-2020-01-18-IS02PT-GRP09-TravelAI/blob/master/
 ---
 ## SECTION 7 : MISCELLANEOUS
 
-`Refer to Github Folder: Miscellaneous`
+Refer to Github Folder: Miscellaneous
 
 ### Travel AI Survey.csv
 * Results of survey
