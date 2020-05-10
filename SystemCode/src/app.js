@@ -118,7 +118,7 @@ app.post("/webhook", function(request, response) {
     } else if (citiesPre.length > 5) {
       agent.add('Your chosen cities are ' + citiesPre + '.' + citiesPre.length + ' cities are too many for me to handle. Kindly input your cities again.');
     } else {
-      agent.add('Your departure city is ' + citiesPre[0] + '.Your desination cities are ' + citiesPre.slice(1) + ". Please input your departure date - your return date (Format eg: 2020-08-20 - 2020-08-28)");
+      agent.add('Your departure city is ' + citiesPre[0] + '.Your destination cities are ' + citiesPre.slice(1) + ". Please input your departure date - your return date (Format eg: 2020-08-20 - 2020-08-28)");
       cities = citiesPre;
       console.log(cities);
     }
