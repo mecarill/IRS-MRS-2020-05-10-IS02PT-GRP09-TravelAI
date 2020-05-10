@@ -2,7 +2,7 @@
 ## SECTION 1 : PROJECT TITLE
 ## TravelAI - Flight & Hotel Recommender for multi-country trips.
 
-<img src="SystemCode/clips/static/hdb-bto.png"
+<img src="https://img.youtube.com/vi/yWLNFtkZtb8/0.jpg"
      style="float: left; margin-right: 0px;" />
 
 ---
@@ -18,9 +18,9 @@ This project presents a TravelAI, a hassle-free end-to-end solution to this prob
 
 | Official Full Name  | Student ID (MTech Applicable)  | Work Items (Who Did What) | Email (Optional) |
 | :------------ |:---------------:| :-----| :-----|
-| Mohamed Mikhail Kennerley | A0213546J | •OR-Tools Optimiser <br>•Video <br>•Survey Design & Data Extraction| e0508649@u.nus.edu |
-| Loy Pei Xin Veronica | A0213524R | •Flight,Hotel,Tripadvisor API <br>•Rule-Based System <br>•Project Report <br>•User Guide| E0508647@u.nus.edu|
-| Oh Chun How | A1234567C | •System architecture and intergration <br>•Dialog Flow System zzzzzzzzzz| Chunhow.oh@u.nus.edu |
+| Mohamed Mikhail Kennerley | A0213546J | • OR-Tools Optimiser <br>• Video <br>• Survey Design & Data Extraction| e0508649@u.nus.edu |
+| Loy Pei Xin Veronica | A0213524R | • Flight,Hotel,Tripadvisor API <br>• Rule-Based System <br>• Project Report <br>• User Guide| E0508647@u.nus.edu|
+| Oh Chun How | A1234567C | • System architecture and intergration <br>• Dialog Flow System| Chunhow.oh@u.nus.edu |
 
 ---
 
